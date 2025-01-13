@@ -1,0 +1,148 @@
+body{
+    font-family:'Courier New' ,Arial, sans-serif;
+    background-image: url('./assets/back.jpg');
+    overflow-x: hidden;
+}
+.main{
+    position:relative;
+    background-color:#ededeb;
+    border:2px solid black;
+    text-align:left;
+    width:28%;
+    height:25%;
+    font-size:150%;
+    left: 21%;
+    top:250px;  
+    padding-left:1%; 
+    z-index:1;
+    
+}
+.main #PokemonName{
+    position:relative;
+    left:40%;   
+    bottom:54px;
+
+}
+audio::-webkit-media-controls-timeline {
+    display: none;
+  }
+audio::-webkit-media-controls-current-time-display {
+    display: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #ededeb;
+
+}
+.cry{
+    position:relative;
+    border:2px solid, black;
+    background-color: #ededeb;
+    width:10%;
+    left: 16%;
+    bottom:210px;
+    z-index:2;
+
+}
+.imgDiv{
+    position:relative;
+    background-color:#959394;
+    top: 0px;
+    z-index:0;
+    width:103%;
+    right:2%;
+    height:230px;
+    border:2px solid black;
+}
+.PokemonImg{
+    position:relative;
+    width:14%;
+    height:auto;
+    left:2%;
+    top:15px;
+    z-index:2;
+}
+.parag{
+    color:white;
+    border:black solid 2px;
+    width:47%;
+    height:120px;
+    position:relative;
+    left:51%;
+    bottom: 100%;
+    display:flex;
+    padding-left:1%;
+    background-color:#393939;
+    font-size:120%;
+}
+.pokeBall{
+    width:3%;
+    height:auto;
+    position:relative;
+    bottom: 192px;
+    left:5%;
+}
+Header{
+    position:static;
+    text-align:center;
+    color:white;
+
+}
+.headiv{
+    background-color:#393939;
+    border:2px solid #c9c071;
+    text-align:left;
+    padding-left:1%;
+    height:100px;
+    position:fixed;
+    width:97.5%;
+    z-index:3;
+
+}
+.txt{
+    position:relative;
+    width:32%;
+    bottom:55px;
+    left:60%;
+    height:35px;
+    border:none;
+    border-radius:10px;
+    padding-left:1%;
+   
+}
+.reset{
+    border-radius:10px;
+    position:relative;
+    left:89%;
+    bottom:88px;
+    height:30px;
+    width:55px;
+    background-color:#393939;
+    border:none;
+    color:white;
+}
+.reset:hover{
+    background-color:#6d6d6d;
+}
+
+Footer{
+    margin-top :200px;
+    top:10px;
+    height: 400px;
+    width:120%;
+    right:1%;
+    background-color:#393939;
+    color:white;
+    position:relative;
+    padding-left:1%;
+    
+}
+
+
+
+  
+
+    
